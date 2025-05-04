@@ -3,7 +3,7 @@ from scipy.special import erfc
 import matplotlib.pyplot as plt
 #Parameters 
 N = int(1e6)
-Eb_N0_dB = np.arange(-3, 60) 
+Eb_N0_dB = np.arange(0, 60) 
 #Transmitter 
 ip = np.random.rand(N) > 0.5 
 s = 2 * ip - 1 
@@ -20,7 +20,7 @@ nErr[i] = np.sum(ip != ipHat)
 #BER calculation 
 simBer = nErr/N 
 theoryBerAWGN = 0.5*erfc(np.sqrt(10**(Eb_N0_dB/10))) 
-theoryBer = 0.5*(1-np.sqrt(10*(Eb_N0_dB/10)/(1+ 10*(Eb_N0_dB/10)))) 
+theoryBer = 0.5*(1-np.sqrt(10**(Eb_N0_dB/10)/(1+ 10**(Eb_N0_dB/10)))) 
 # Plot 
 plt.semilogy(Eb_N0_dB, theoryBerAWGN, 'cd-', linewidth=2)   
 plt.semilogy(Eb_N0_dB, theoryBer, 'bp-', linewidth=2)       

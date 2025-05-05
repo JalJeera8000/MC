@@ -1,0 +1,28 @@
+Title:
+Understanding the Handover Mechanism in Mobile Communication
+
+Problem Statement:
+To analyze how handover threshold and margin impact SINR (Signal to Interference plus Noise Ratio), call drop probability, and handover probability in a mobile communication system.
+
+Objectives:
+Understand the concept of handover/handoff between cells in mobile networks.
+
+Study how handover threshold and handover margin affect performance.
+
+Analyze SINR, call drop probability, and handover probability under varying conditions.
+
+Prerequisites (System Requirements):
+Operating System: Windows 7
+
+Java Version: Java 6
+
+Browser: Mozilla Firefox v47.0.1
+
+Theory (in points):
+Handover (or Handoff) is the process where a mobile device switches from one cell (base station) to another without dropping the connection.
+
+Handover threshold is the signal strength level at which the handover process is triggered.
+
+Handover margin is the extra buffer value used to prevent unnecessary handovers (ping-pong effect).
+
+Effective handover ensures smooth connectivity, minimizes call drops, and maintains quality of service.

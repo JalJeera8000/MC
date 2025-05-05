@@ -1,0 +1,23 @@
+Problem Statement:
+Simulate the Bit Error Rate (BER) performance of BPSK modulation over Rayleigh Fading Channel and compare it with AWGN Channel.
+
+Objectives:
+To understand Rayleigh fading and its impact on wireless signal transmission.
+
+To simulate BPSK modulation over Rayleigh and AWGN channels.
+
+To compare the BER performance under both conditions.
+
+Software Requirements:
+MATLAB / Octave / Python
+
+Windows/Linux OS
+
+Basic plotting libraries (e.g., matplotlib if using Python)
+
+Theory (in 3 points):
+Rayleigh Fading occurs when a signal arrives through multiple indirect paths, causing severe fluctuations in amplitude.
+
+BPSK (Binary Phase Shift Keying) transmits data by changing the phase of the carrier signal to represent binary values (0 and 1).
+
+BER (Bit Error Rate) increases in Rayleigh fading compared to AWGN due to signal distortion from multipath interference.

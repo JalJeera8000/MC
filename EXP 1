@@ -1,0 +1,29 @@
+AIM:
+To understand the basic function of Code Division Multiple Access (CDMA).
+
+OBJECTIVES:
+To understand the function of CDMA used to test orthogonality and autocorrelation of a code.
+
+SOFTWARE & HARDWARE REQUIREMENTS:
+Operating System: Unix or Windows 7/8/10
+
+Processor: i3 / i5 / i7
+
+Software: Python (Jupyter Notebook) or Java
+
+THEORY (in Points):
+CDMA stands for Code Division Multiple Access, a digital cellular standard.
+
+It uses spread spectrum technology to transmit signals over multiple channels.
+
+Each user is assigned a unique spreading code that spreads the data signal over a wide bandwidth.
+
+Signals from multiple users are added together on the same frequency band.
+
+The orthogonality of codes ensures users don’t interfere with each other.
+
+The receiver retrieves data using the inner product of the combined signal and the target user's code.
+
+CDMA provides secure, private, and robust communication, even in noisy environments.
+
+It’s mainly used in 2G and 3G mobile network systems.

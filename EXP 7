@@ -1,0 +1,15 @@
+AIM:
+To study the Outage Probability, Level Crossing Rate (LCR), and Average Fade Duration (AFD) in a SISO (Single Input Single Output) system using Selection Combining and Maximal Ratio Combining (MRC) techniques under small-scale fading.
+
+OBJECTIVES:
+To understand the concept of small-scale fading and its impact on wireless signal performance.
+
+To simulate and analyze Outage Probability, LCR, and AFD in a SISO system.
+
+To compare the performance of Selection Combining and MRC diversity techniques in fading environments.
+Small-Scale Fading occurs due to rapid fluctuations in signal strength caused by multipath propagation — reflections, diffractions, and scattering of the transmitted signal.
+
+Outage Probability is the chance that the received signal falls below a certain threshold, causing communication failure. LCR (Level Crossing Rate) is how often the signal crosses that threshold, and AFD (Average Fade Duration) is the average time the signal stays below it.
+
+Selection Combining picks the best signal from multiple paths, while Maximal Ratio Combining (MRC) adds all paths with proper weighting for better signal quality and reduced fading impact.
+

@@ -1,0 +1,46 @@
+Title:
+File Sharing by Using TCP Protocol
+
+Problem Statement:
+To perform file transfer between a client and a server using TCP/IP protocol.
+
+Objectives:
+Understand Socket:
+A socket is a combination of an IP address and a port number, used as an endpoint for communication.
+
+Understand the Client-Server Model:
+A model where the server provides resources or services, and clients request them over a network.
+
+Enable Remote Communication:
+Establish connection and data exchange between devices over a network.
+
+Outcome:
+Implement a client-server architecture.
+
+Transfer files securely and reliably over a TCP/IP connection using Python.
+
+Software Requirements:
+Python
+
+Open-source Linux Operating System
+
+Theory:
+TCP (Transmission Control Protocol):
+A connection-oriented protocol ensuring reliable and sequential delivery of data.
+
+Socket Programming:
+Uses TCP sockets for creating a link between two devices. One acts as a server (listener), and the other as a client (requester).
+
+IP Address & Port:
+
+IP Address: Identifies the device on the network.
+
+Port: Logical channel for data exchange (e.g., Port 8080).
+
+Client-Server Communication Flow:
+
+Server creates and binds a socket to a port and listens.
+
+Client connects using the server’s IP and port.
+
+Data (e.g., files) is exchanged after connection.

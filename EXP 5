@@ -1,0 +1,36 @@
+Problem Statement:
+To configure a Cisco router to function as a DHCP Server and automatically assign IP addresses to connected client devices.
+
+Objectives:
+Understand the DORA process (Discover, Offer, Request, Acknowledge) in DHCP.
+
+Learn the benefits of DHCP over manual IP assignment.
+
+Understand how DHCP works in client-server network architecture.
+
+Software Requirements:
+Cisco Packet Tracer (Network simulation tool)
+
+Linux-based Open-Source OS (Optional for advanced implementation)
+
+Theory (in points):
+DHCP (Dynamic Host Configuration Protocol) is used to dynamically assign IP addresses to devices in a network.
+
+The DORA process is a 4-step handshake between client and server:
+
+Discover: Client broadcasts request for IP.
+
+Offer: Server responds with available IP.
+
+Request: Client requests offered IP.
+
+Ack: Server acknowledges and assigns IP.
+
+DHCP simplifies network management by automating IP assignment, reducing human error and avoiding IP conflicts.
+
+Outcome:
+Successfully configure a Cisco router as a DHCP server.
+
+Understand and demonstrate DORA process.
+
+Deploy and test a client-server model with automatic IP assignment.
